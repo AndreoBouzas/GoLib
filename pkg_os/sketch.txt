@@ -1,0 +1,20 @@
+append > Inicio
+			append > coleta os dados
+				append > Get  
+					(Se)
+					append > Patch
+					append > Não altera nada
+				(Se não)	
+				append > Post
+			append > Fim 
+
+
+
+			!! Criar os arquivos com o nome sendo a data atual!!
+	
+	se o arquivo com a data atual existe quando o código é rodado. 
+	
+		append das novas inforções coletadas no arquivo existente 
+	se não existe 
+		cria o arquivo e da append nas novas informações 
+ 

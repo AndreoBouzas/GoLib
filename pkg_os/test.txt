@@ -1,0 +1,1 @@
+ABCString em buffer
