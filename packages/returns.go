@@ -1,8 +1,6 @@
 package returns
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //definindo as variáveis de input do usuário
 var num1, num2 int
@@ -13,7 +11,7 @@ func calc(x int, y int) (string, int, string, int, string, int, string, int) {
 }
 
 //chamando na func main a função de multiplo retorno criada
-func returnOperations() {
+func main() {
 	//solicitando ao usuário que digite o primeiro número
 	fmt.Println("Informe o primeiro número:")
 	//coletado o primeiro número digitado
