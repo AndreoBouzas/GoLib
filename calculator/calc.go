@@ -1,11 +1,13 @@
-package main
+package returns
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var n1, n2 int
 var sig string
 
-func main() {
+func invoke() {
 
 	fmt.Println("Informe o primeiro número:")
 	fmt.Scanln(&n1)
@@ -15,6 +17,8 @@ func main() {
 	fmt.Scanln(&n2)
 
 	fmt.Println("O resultado é:", (calculator(n1, n2, sig)))
+
+	fmt.Println("O resultado das demais operaçõe é :", returns.calc(n1, n2))
 
 }
 

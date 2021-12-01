@@ -11,7 +11,7 @@ func calc(x int, y int) (string, int, string, int, string, int, string, int) {
 }
 
 //chamando na func main a função de multiplo retorno criada
-func main() {
+func invoke() {
 	//solicitando ao usuário que digite o primeiro número
 	fmt.Println("Informe o primeiro número:")
 	//coletado o primeiro número digitado
