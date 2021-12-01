@@ -20,9 +20,4 @@ func main() {
 	v, ok = <-canal
 	fmt.Println(v, ok)
 
-	🤣 := "oi"
-	fmt.Println(🤣)
-
-	f:= unicode.Print(🤣)
-	fmt.Println(f)
 }
