@@ -6,7 +6,7 @@ import "fmt"
 var num1, num2 int
 
 //criando a função de calculo que recebe dois valores "int" e retorna 4 valores "int" e 4 valores "String"
-func calc(x int, y int) (string, int, string, int, string, int, string, int) {
+func Calc(x int, y int) (string, int, string, int, string, int, string, int) {
 	return "\nSOMA =", x + y, "\nSUBTRAÇÃO =", x - y, "\nMULTIPLICAÇÃO =", x * y, "\nDIVISÃO =", x / y
 }
 
@@ -21,5 +21,5 @@ func invoke() {
 	//coletado o segundo número digitado
 	fmt.Scanln(&num2)
 	//dando print do resultado da função calc com os valores informados pelo usuário
-	fmt.Println(calc(num1, num2))
+	fmt.Println(Calc(num1, num2))
 }
